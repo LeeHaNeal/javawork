@@ -23,20 +23,20 @@ public class Int_01 {
         int num2 = 3;
 
         // 4칙연산
-        int sum = num1 + num2;        // 덧셈
-        int difference = num1 - num2; // 뺄셈
-        int product = num1 * num2;    // 곱셈
-        int quotient = num1 / num2;   // 나눗셈 (정수 나눗셈)
-        int remainder = num1 % num2;  // 나머지 연산
+        double sum = num1 + num2; // 덧셈
+        double ma = num1 - num2; // 뺄셈
+        double gop = num1 * num2;    // 곱셈
+        double na = num1 / num2;   // 나눗셈 (정수 나눗셈)
+        double jan = num1 % num2;  // 나머지 연산
 
         // 결과 출력
         System.out.println("덧셈: " + sum);
-        System.out.println("뺄셈: " + difference);
-        System.out.println("곱셈: " + product);
-        System.out.println("나눗셈: " + quotient);
-        System.out.println("나머지: " + remainder);
+        System.out.println("뺄셈: " + ma);
+        System.out.println("곱셈: " + gop);
+        System.out.println("나눗셈: " + na);
+        System.out.println("나머지: " + jan);
 
-		
+	
 		
 		
 	}
