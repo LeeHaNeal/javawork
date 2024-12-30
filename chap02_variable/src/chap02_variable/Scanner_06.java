@@ -19,7 +19,7 @@ public class Scanner_06 {
 				System.out.println("이름 : " + name);
 				
 				
-				System.out.println("당신은 학생입니까?(true , flase) :  ");
+				System.out.pr intln("당신은 학생입니까?(true , flase) :  ");
 				// 논리형으로 받을때 netxtBoolean()
 				boolean student = scan.nextBoolean();
 				System.out.println("당신의 답은 = " + student);
@@ -39,20 +39,42 @@ public class Scanner_06 {
 		System.out.println("성의 이니셜은 : " + initial);
 		*/
 
-		System.out.println("정수 3개 입력(띄어쓰기로) >> ");
-		int num1 = scan.nextInt();
-		int num2 = scan.nextInt();
-		int num3 = scan.nextInt();
-		System.out.println("첫 번째 숫자 값 : " + num1);
-		System.out.println("첫 번째 숫자 값 : " + num2);
-		System.out.println("첫 번째 숫자 값 : " + num3);
-		
+		/*		System.out.println("정수 3개 입력(띄어쓰기로) >> ");
+				int num1 = scan.nextInt();
+				int num2 = scan.nextInt();
+				int num3 = scan.nextInt();	
+				System.out.println("첫 번째 숫자 값 : " + num1);
+				System.out.println("첫 번째 숫자 값 : " + num2);
+				System.out.println("첫 번째 숫자 값 : " + num3);
+				*/
 		/*// 레포트 
 		 * 1. 사용자로부터 2수를 입력받아 사칙연산을 출력하시오 
+		 *  입력 받은수 : 7 5 
+		 *  
 		 * 2. 사용자로 부터 연산자(1글자)를 입력받아 위 1번의 두 수를 연산하여 출력하시오
 		*/	
 		
+		
+		System.out.println("정수 2개 입력(띄어쓰기로) >> ");
+		int num1 = scan.nextInt();
+		int num2 = scan.nextInt();
+		System.out.println(num1 + "+" + num2 + "=" + (num1+num2));
+		System.out.println(num1 + "-" + num2 + "=" + (num1-num2));
+		System.out.println(num1 + "*" + num2 + "=" + (num1*num2));
+		System.out.println(num1 + "/" + num2 + "=" + (num1/num2));
+
 	
+		System.out.println("연산자를 입력하세요 : ");
+		char op = scan.next().charAt(0);
+		if(op == '+')
+			System.out.println(num1 + "+" + num2 + "=" + (num1+num2));
+		else if(op == '-')
+			System.out.println(num1 + "-" + num2 + "=" + (num1-num2));
+		else if(op == '*')
+			System.out.println(num1 + "*" + num2 + "=" + (num1*num2));
+		else if(op == '/')
+			System.out.println(num1 + "/" + num2 + "=" + (num1/num2));
+		
 	}
 
 }
