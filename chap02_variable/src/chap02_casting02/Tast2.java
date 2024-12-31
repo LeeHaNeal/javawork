@@ -8,7 +8,7 @@ public class Tast2 {
         
         Scanner scan = new Scanner(System.in); 
         
-		/*System.out.print("이름을 입력하세요: ");
+		System.out.print("이름을 입력하세요: ");
 		String name = scan.nextLine(); 
 		
 		System.out.print("성별을 입력하세요(남/여): ");
@@ -47,17 +47,27 @@ public class Tast2 {
 		
 		System.out.printf("면적: %.2f%n", meon);
 		System.out.printf("둘레: %.2f%n", dul);
-		*/
+		
         System.out.println("--------------------------------------------");
            
-        System.out.print("문자열을 입력하세요: ");
-		String mun1 = scan.nextLine(); 
-		String mun2 = scan.nextLine(); 
-		String mun3 = scan.nextLine(); 
-		
-		System.out.printf("첫번째 문자:"+ mun1);
-		System.out.printf("두번째 문자:"+ mun2);
-		System.out.printf("세번째 문자:"+ mun3);
+		 Scanner scanner = new Scanner(System.in);
+
+	        System.out.print("문자열을 입력하세요 : ");
+	        String input = scanner.nextLine();
+
+	        if (input.length() < 3) {
+	            System.out.println("입력한 문자열이 너무 짧습니다.");
+	        } else {
+	            // 처음 세 문자 추출
+	            char first = input.charAt(0);
+	            char second = input.charAt(1);
+	            char third = input.charAt(2);
+
+	            // 결과 출력
+	            System.out.println("\n첫 번째 문자 : " + first);
+	            System.out.println("두 번째 문자 : " + second);
+	            System.out.println("세 번째 문자 : " + third);
+	        }
 		
         
 		
