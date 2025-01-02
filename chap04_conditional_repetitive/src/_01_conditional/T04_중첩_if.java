@@ -28,12 +28,12 @@ public class T04_중첩_if {
             else { // 100보다 크고 200보다 작은 수
                 System.out.println("100보다 크고 200보다 작은 수");}}
         else { // 100보다 작거나 같은 수
-            if(num1 > 0) { // 0보다 큰 수
+        	if(num1 > 0) { // 0보다 큰 수
                 System.out.println("양수");
-            if(num1 %2 == 0 ) {
-                System.out.println("짝수");} 
-            else {
-                System.out.println("홀수");}} 
+                if(num1 %2 == 0 ) {
+                	System.out.println("짝수");} 
+                else {
+                	System.out.println("홀수");}} 
             else if (num1 == 0) {
                 System.out.println("0");} 
             else {
