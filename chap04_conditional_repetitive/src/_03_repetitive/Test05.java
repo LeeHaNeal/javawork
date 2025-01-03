@@ -15,8 +15,20 @@ public class Test05 {
 		
 		
 		java책 p111 ~ 113까지 문제 풀기
+		*/
+		/*
+		for(int i=1; i<=9; i++) {
+			for (int dan=2; dan<=9; dan++) {
+				System.out.printf("%d*%d=%2d\t",dan,i,dan*i);
+				
+			} 
+			System.out.println();
+		}
+		 System.out.println("------------------------");
+		*/
 		
-		while(true) {
+		
+		/*while(true) {
 		int random1 = (int)(Math.random() * 6)+1;
 		
 		
@@ -51,7 +63,6 @@ public class Test05 {
 		for (int i=1; i<=100; i++) {
 			if(i % 2== 0) {
 				evenSum += i;
-			
 			}
 		}
 		for(int j=1; j<=100; j++) {
@@ -67,7 +78,7 @@ public class Test05 {
 		for(int x=1; x<=6; x++) {
 			for (int y=1; y<=6; y++) {
 				if(x + y == 6) {
-					System.out.println(""+x+","+y);
+					System.out.println("("+""+x+","+y+")");
 				}
 			}
 		}
@@ -97,7 +108,7 @@ public class Test05 {
 		        System.out.print("*"); 
 		    }
 		    System.out.println(); 
-		}*/
+		}
 		System.out.println("------------------------");
 		
 		int count =0;
@@ -109,7 +120,7 @@ public class Test05 {
 			if(random1 ==6) {
 				System.out.println("총 주사위 굴린 횟수 : " + count);
 				break;
-			}
+			}*/
 			 
 			
 			
@@ -120,6 +131,6 @@ public class Test05 {
 		
 		
 		
+	
 	}
 
-}
