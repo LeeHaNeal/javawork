@@ -10,7 +10,7 @@ public class Phone {
 	Phone(String model , String color){
 		this.model = model;
 		this.color = color;
-		this.bell = false;
+
 		this.hang = false;
 		this.message = " ";
 	}
@@ -18,19 +18,11 @@ public class Phone {
 
 	
 	void bell() {
-		bell = !bell;
-		if(bell )
-			System.out.println("알람이 울립니다.");
-		else
-			System.out.println("알람이 꺼집니다.");
-	}  
+			System.out.println("알람울립니다.");
+	}  	
 	
 	void hangUP() {
-		 hang = !hang;
-		if(hang)
-			System.out.println("전화를 받았습니다.");
-		else
-			System.out.println("전화를 끊었습니다.");
+		System.out.println("전화를 받습니다.");
 	}
 	
 	void sendVoice(String msg) {
