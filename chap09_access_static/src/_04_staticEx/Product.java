@@ -17,7 +17,7 @@ public class Product {
 	String gou() {
 		return gou;
 	}
-	public static int getgouCount() {
+	public static int getCount() {
         return count;
     }
 	

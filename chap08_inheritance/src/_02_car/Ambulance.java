@@ -3,7 +3,7 @@ package _02_car;
 public class Ambulance extends Car{
 	
 
-	Ambulance(String model, String company) {
+	public Ambulance(String model, String company) {
 		super(model, company);
 		
 	}
