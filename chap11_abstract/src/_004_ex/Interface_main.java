@@ -1,4 +1,4 @@
-package _05_ex;
+package _004_ex;
 
 public class Interface_main {
 
