@@ -54,7 +54,7 @@ public class T01_ArrayList {
 		// 삭제 : remove(index) , remove(객체) , clear()
 		
 		
-		System.out.println("삭제한 객체 :  " + list.remove(2));
+		System.out.println("삭제한 객체 :  " + list.remove(null));
 	
 		list.remove("oracle");	
 		System.out.println("orecle 삭제 후");

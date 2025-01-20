@@ -26,7 +26,7 @@ public class T02_HashMap {
              System.out.print("비밀번호를 입력하세요: ");
              String pw = scan.nextLine();
 
-             // 비밀번호 확인
+             
              if (map.get(id).equals(pw)) {
                  System.out.println("로그인 성공!");
              }else {
