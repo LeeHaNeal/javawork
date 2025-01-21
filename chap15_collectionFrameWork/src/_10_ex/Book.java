@@ -1,6 +1,6 @@
 package _10_ex;
 
-public class Book {
+public class Book implements Comparable<Book> {
 	private String title;
 	private String author;
 	private String publisher;
@@ -40,6 +40,13 @@ public class Book {
 
 	@Override
 	public String toString() {
-		return "제목 : " + title + "/저자 : " + author + "/출판사 : " + publisher;
+		return "제목 : " + title + "  저자 : " + author + "  출판사 : " + publisher;
 	}
+	
+	 public int compareTo(Book other) {
+	        // 제목(title) 기준으로 오름차순 정렬
+	        return this.title.compareTo(other.title);
+	    }
+	
+	
 }
