@@ -12,8 +12,8 @@ public class T05_numberFormat {
 		String[] str = {"23","17","a","3.141592"};
 		int i=0;
 		try {
-			for(int i =0; i<str.length;i++) {
-				int num = Integer.parseInt(str[i]);
+			for(int i1 =0; i1<str.length;i1++) {
+				int num = Integer.parseInt(str[i1]);
 				System.out.println(num);
 			}
 			
